@@ -4,6 +4,8 @@ import css3Logo from "/src/icons/css3-logo.png"
 import jsLogo from "/src/icons/js-logo.png"
 import reactLogo from "/src/icons/react-logo.png"
 import spaIcon from "/src/icons/spa-icon.png"
+import frIcon from "/src/icons/fr-icon.png"
+import enIcon from "/src/icons/en-icon.png"
 import starIcon from "/src/icons/star-icon.png"
 import locIcon from "/src/icons/location-icon.png"
 
@@ -62,7 +64,7 @@ export default function About() {
                 </div>
                 <div className="flex flex-row items-center justify-between gap-10 sm:gap-2">
                     <div className="flex flex-row items-center gap-2">
-                        <img className="h-5 w-5" src="/src/icons/fr-icon.png" /><p>French</p>
+                        <img className="h-5 w-5" src={frIcon} /><p>French</p>
                     </div>
                     <div className="flex flex-row">
                         <img className="h-3 w-3" src={starIcon} />
@@ -72,7 +74,7 @@ export default function About() {
                 </div>
                 <div className="flex flex-row items-center justify-between gap-10 sm:gap-2">
                     <div className="flex flex-row items-center gap-2">
-                        <img className="h-5 w-5" src="/src/icons/en-icon.png" /><p>English</p>
+                        <img className="h-5 w-5" src={enIcon} /><p>English</p>
                     </div>                        <div className="flex flex-row">
                         <img className="h-3 w-3" src={starIcon} />
                         <img className="h-3 w-3" src={starIcon} />
