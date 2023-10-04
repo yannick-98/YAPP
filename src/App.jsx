@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './App.css'
 import Header from "/src/components/Header"
 import Contenido from './components/Contenido';
-import logo from '/src/icons/Logo2.svg'
+import logo from "/src/icons/Logo2.svg"
 
 function App() {
 

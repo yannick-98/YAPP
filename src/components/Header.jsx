@@ -7,7 +7,7 @@ import {
 } from '@heroicons/react/24/outline'
 
 
-export default function Header(logo) {
+export default function Header({ logo }) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
 
@@ -16,7 +16,7 @@ export default function Header(logo) {
             <nav className={"mx-auto flex items-center max-w-7xl justify-between p-6 lg:px-8"} aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
-                        <span className="sr-only">Your Company</span>
+                        <span className="sr-only">YAPP</span>
                         <img className="h-8 w-auto" src={logo} alt="" />
                     </a>
                 </div>
